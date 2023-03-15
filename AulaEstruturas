@@ -1,0 +1,42 @@
+package com.mycompany.aulaestruturas;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author aluno
+ */
+public class AulaEstruturas {
+
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+        Scanner inteiro = new Scanner (System.in);
+        Scanner real = new Scanner (System.in);
+        
+        String letras [] =  new String[10];
+        int numero [] = new int[20];
+        double caracteres [] = new double [5];
+        
+        for(int s=0; s < letras.length; s++){
+            System.out.println("Digite uma Palavra: \n");
+            letras[s] = ler.nextLine();
+        }
+        System.out.print ("Palavras informadas: \n");
+        for (String letra : letras) {
+            System.out.println(" - " + letra);
+        }
+        for (int i=0; i < numero.length; i++){
+        System.out.println("Digite um numero: \n");
+        numero[i] = inteiro.nextInt();
+        }
+        for (int i=0; i < numero.length; i++) {
+        System.out.println("Numeros informados: \n");
+        }
+        for (int d=0; d < caracteres.length; d++){
+        System.out.println("Digite um numero real: \n");
+        caracteres[d] = real.nextDouble();
+        }
+        for (int d=0; d < caracteres.length; d++){
+        System.out.println("Numeros informados: \n");}
+    }
+}
