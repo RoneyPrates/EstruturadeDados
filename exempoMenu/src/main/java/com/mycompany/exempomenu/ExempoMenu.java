@@ -16,9 +16,9 @@ public class ExempoMenu {
         
         while(opcao != 0){ 
         opcao = Integer.parseInt(JOptionPane.showInputDialog(
-                "1 - Primeira opção \n"
-                + "2 - Segunda Opção \n"
-                + "3 - Terceira opção \n"
+                "1 - Ordenação por inserção\n"
+                + "2 - Ordenação por seleção \n"
+                + "3 - Ordenação Bolha \n"
                 + "0 - Sair"));
         
             switch (opcao) {
